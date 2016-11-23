@@ -143,6 +143,10 @@ public class RuntimeInit {
         Thread.setUncaughtExceptionPreHandler(new LoggingHandler());
         Thread.setDefaultUncaughtExceptionHandler(new KillApplicationHandler());
 
+        Build.adjustBuildTypeIfNeeded();
+
+        Build.adjustBuildTypeIfNeeded();
+
         /*
          * Install a TimezoneGetter subclass for ZoneInfo.db
          */
