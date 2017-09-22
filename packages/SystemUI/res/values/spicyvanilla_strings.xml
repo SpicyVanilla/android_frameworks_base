@@ -19,4 +19,8 @@
     <!-- Set empty summary to get nice layout in settings -->
     <string name="summary_empty" translatable="false"></string>
 
+    <!-- Add a hide config to left and right shortcut -->
+    <string name="lockscreen_default">Default</string>
+    <string name="lockscreen_hidden">None</string>
+
 </resources>
